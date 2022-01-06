@@ -84,11 +84,11 @@ namespace uk.co.edgewordstraining.nfocus.edward.cabrini.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Discount test")]
-        [NUnit.Framework.CategoryAttribute("Login_Test")]
+        [NUnit.Framework.CategoryAttribute("Discount_Order_Test")]
         public virtual void DiscountTest()
         {
             string[] tagsOfScenario = new string[] {
-                    "Login_Test"};
+                    "Discount_Order_Test"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Discount test", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 7
@@ -133,13 +133,25 @@ this.FeatureBackground();
  testRunner.Then("I have the same \'clothing item\' in cart table", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 14
- testRunner.When("I am on the Cart page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-#line 15
  testRunner.Then("I apply coupon code \'edgewords\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 16
+#line 15
  testRunner.Then("Subtotal is equal to %15 less than item\'s original price", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 16
+ testRunner.When("I am on the checkout page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 17
+ testRunner.Then("I input valid billing information", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 18
+ testRunner.And("Select \'check payments\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 19
+ testRunner.Then("I place the order", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 20
+ testRunner.Then("I get the order reference", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

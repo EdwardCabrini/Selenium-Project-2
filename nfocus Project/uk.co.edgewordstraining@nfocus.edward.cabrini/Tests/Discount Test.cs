@@ -92,6 +92,7 @@ namespace uk.co.edgewordstraining.nfocus.edward.cabrini.Tests
            else
             {
                 //Assert.Fail("Cart item Doesn't match shop item");
+                Console.WriteLine("Cart item Doesn't match shop item");
             }
         }
 

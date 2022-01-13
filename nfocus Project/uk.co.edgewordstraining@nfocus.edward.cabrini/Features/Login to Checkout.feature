@@ -8,6 +8,6 @@ Background:
 Scenario: Complete new session checkout process
 	When I login with 'edward.cabrini@nfocus.co.uk' and 'Man_of_Chaos2567'
 	Then I place the order
-	And I apply coupon code 'edgewords'
+	And I apply coupon code 'edgewords' and validate discount
 	When I complete checkout with valid billing information
 	Then I will recieve correct order number

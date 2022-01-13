@@ -120,7 +120,7 @@ this.FeatureBackground();
  testRunner.Then("I place the order", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 11
- testRunner.And("I apply coupon code \'edgewords\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("I apply coupon code \'edgewords\' and validate discount", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 12
  testRunner.When("I complete checkout with valid billing information", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");

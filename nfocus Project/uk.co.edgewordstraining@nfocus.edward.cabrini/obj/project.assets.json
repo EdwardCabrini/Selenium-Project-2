@@ -4990,7 +4990,6 @@
       "path": "system.runtime.interopservices.runtimeinformation/4.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5723,19 +5722,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\EdwardCabrini\\.nuget\\packages\\": {}
+    "C:\\Users\\cabri\\.nuget\\packages\\": {},
+    "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EdwardCabrini\\OneDrive - nFocus Limited\\Documents\\GitHub\\Selenium-Project-2\\nfocus Project\\uk.co.edgewordstraining@nfocus.edward.cabrini\\uk.co.edgewordstraining.nfocus.edward.cabrini.csproj",
+      "projectUniqueName": "C:\\Users\\cabri\\Documents\\GitHub\\Selenium-Project-2\\nfocus Project\\uk.co.edgewordstraining@nfocus.edward.cabrini\\uk.co.edgewordstraining.nfocus.edward.cabrini.csproj",
       "projectName": "uk.co.edgewordstraining.nfocus.edward.cabrini",
-      "projectPath": "C:\\Users\\EdwardCabrini\\OneDrive - nFocus Limited\\Documents\\GitHub\\Selenium-Project-2\\nfocus Project\\uk.co.edgewordstraining@nfocus.edward.cabrini\\uk.co.edgewordstraining.nfocus.edward.cabrini.csproj",
-      "packagesPath": "C:\\Users\\EdwardCabrini\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EdwardCabrini\\OneDrive - nFocus Limited\\Documents\\GitHub\\Selenium-Project-2\\nfocus Project\\uk.co.edgewordstraining@nfocus.edward.cabrini\\obj\\",
+      "projectPath": "C:\\Users\\cabri\\Documents\\GitHub\\Selenium-Project-2\\nfocus Project\\uk.co.edgewordstraining@nfocus.edward.cabrini\\uk.co.edgewordstraining.nfocus.edward.cabrini.csproj",
+      "packagesPath": "C:\\Users\\cabri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cabri\\Documents\\GitHub\\Selenium-Project-2\\nfocus Project\\uk.co.edgewordstraining@nfocus.edward.cabrini\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\EdwardCabrini\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5829,7 +5833,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
